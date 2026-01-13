@@ -101,6 +101,29 @@ download ```transform_to_tf.py``` to ```catkin_ws/src/script/```(can be any dire
 python3 src/script/transform_to_tf.py
 ```
 
+#### 5. Run easy_handeye
+in another terminal, run:
+```bash
+roslaunch easy_handeye panda_realsense_eyeonbase.launch
+```
+
+#### 6. Start calibration
+1. mount the arUco marker on the gripper, initial pose should roughly facing the camera
+2. follow the ```automatic movement``` and ```Calibration``` GUI, take sample for each pose with valid marker pose
+3. After getting 15-30 samples, click ```Compute```
+
+#### (Optional) 1. Generate arUco marker
+Marker generation web: https://chev.me/arucogen/
+Note: select Dictionary: Original ArUco
+
+
+#### (Optional) 2. View the marker pose frame
+In a new terminal, run:
+```bash
+rosrun image_view image_view image:=/aruco_single/result
+```
+
+
 
 
 
