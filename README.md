@@ -95,5 +95,12 @@ modify the below args to fit your own setting
 ```
 After modifying the launch file, save it under ```catkin_ws/src/easy_handeye/easy_handeye/launch/```
 
+#### 4. Bridge arUco pose topic into TF
+download ```transform_to_tf.py``` to ```catkin_ws/src/script/```(can be any directory runable with python3), in one terminal, run:
+```bash
+python3 src/script/transform_to_tf.py
+```
+
+
 
 
