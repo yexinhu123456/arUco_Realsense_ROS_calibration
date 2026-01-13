@@ -1,7 +1,7 @@
 ## Calibration with arUco marker and Realsense camera for ros1
 This github provides a simple tutorial for eye-on-base camera calibration with arUco marker and Realsense camera setting for franka robot in ros1
 
-### Getstart
+### Get start
 #### 1. Install aruco-ros, realsense-ros, ddynamic_reconfigure
 
 ```bash
