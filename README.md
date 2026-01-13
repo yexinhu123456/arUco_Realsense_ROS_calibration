@@ -114,6 +114,7 @@ roslaunch easy_handeye panda_realsense_eyeonbase.launch
 
 #### (Optional) 1. Generate arUco marker
 Marker generation web: https://chev.me/arucogen/
+
 Note: select Dictionary: Original ArUco
 
 
