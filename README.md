@@ -21,7 +21,7 @@ catkin build
 cd src # replace with path to your workspace
 git clone https://github.com/IFL-CAMP/easy_handeye
 
-cd..
+cd ..
 rosdep install -iyr --from-paths src
 
 catkin build
