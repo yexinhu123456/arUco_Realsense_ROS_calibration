@@ -93,5 +93,7 @@ modify the below args to fit your own setting
 
 </launch>
 ```
+After modifying the launch file, save it under ```catkin_ws/src/easy_handeye/easy_handeye/launch/```
+
 
 
