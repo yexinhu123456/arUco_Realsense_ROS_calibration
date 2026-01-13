@@ -29,7 +29,7 @@ catkin build
 
 #### 3. modify panda_realsense_eyeonbase.launch with your own setting
 
-modify the below args to fit your own setting
+modify the below args following the comments to fit your own setting
 ```xml
 <launch>
     <arg name="namespace_prefix" default="panda_eob_calib"/>
