@@ -118,7 +118,7 @@ Marker generation web: https://chev.me/arucogen/
 Note: select Dictionary: Original ArUco
 
 
-#### (Optional) 2. View the marker pose frame
+#### (Optional) 2. View the marker pose
 In a new terminal, run:
 ```bash
 rosrun image_view image_view image:=/aruco_single/result
