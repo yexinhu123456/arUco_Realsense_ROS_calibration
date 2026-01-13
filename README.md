@@ -108,7 +108,7 @@ roslaunch easy_handeye panda_realsense_eyeonbase.launch
 ```
 
 #### 6. Start calibration
-1. mount the arUco marker on the gripper, initial pose should roughly facing the camera
+1. mount the arUco marker on the gripper, initial pose should roughly be facing the camera
 2. follow the ```automatic movement``` and ```Calibration``` GUI, take sample for each pose with valid marker pose
 3. After getting 15-30 samples, click ```Compute```
 
